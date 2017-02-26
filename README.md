@@ -11,4 +11,4 @@ ts.tex -- пример содержания,
 2.tex -- заголовок ЕСПД-документации, 
 uspd.sty -- стилевой файл.
 ##Сборка
-`latex 2.tex && latex 2.tex && dvips 2.dvi` 
+`latexmk -pdf -f 2.tex` 
